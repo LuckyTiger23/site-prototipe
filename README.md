@@ -1,1 +1,1 @@
-# site-prototipe
+# шаблон страницы сайта с Figma
