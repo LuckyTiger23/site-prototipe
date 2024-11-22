@@ -1,0 +1,124 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* reset all */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald';
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#322343cd, #322343cd), url('https://odinkeane.github.io/web-developer/practical2/back.png');
+    background-size: cover;
+}
+
+/* navigation block */
+.navigation{
+    width: 300px;
+    background-color: #000000c1;
+    height: 100vh;
+    min-height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;    
+    text-align: center;
+}
+
+.navigation h3{
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 100px 0;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation__list{
+    color: #fff ;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navigation__list:hover{
+    color: yellow;
+}
+
+.navigation__list:active{
+    color: red;
+}
+
+.navigation li{
+    margin-bottom: 30px;
+}
+
+.navigation__logo{
+    color: yellow;
+}
+
+.navigation__list_color{
+    color: yellow !important;
+}
+
+/* main block */
+.main{
+    min-height: 100vh;
+    display: inline-block;
+    width: calc(100% - 400px);
+    vertical-align: top;
+    padding: 250px 0 0 250px;
+    box-sizing: border-box;
+    color: #fff;
+    line-height: 1;
+} 
+
+h2, h1{
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 60px;
+    color: yellow;
+}
+
+.main p{
+    font-size: 20px;
+    width: 700px;
+    margin: 40px 0;
+}
+
+.main button{
+    all: unset;
+    border: 2px solid yellow;
+    padding: 20px 100px;
+    font-size: 24px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* imaging block */
+img{
+    transition: 1s;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+.main img{
+    border: 2px solid yellow;
+    width: 250px;
+    height: 175px;
+    border-radius: 5px;
+    margin: 30px 10px;
+    object-fit: cover;
+}
